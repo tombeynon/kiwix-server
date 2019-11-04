@@ -1,4 +1,5 @@
-FROM alpine:latest
+ARG BASE="alpine:latest"
+FROM ${BASE}
 
 ARG ARCH="x86_64"
 ARG VERSION="3.0.1-6"
