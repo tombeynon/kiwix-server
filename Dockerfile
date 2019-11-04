@@ -5,6 +5,7 @@ ARG ARCH="x86_64"
 ARG VERSION="3.0.1-6"
 
 ENV ZIMS="ai.stackexchange.com_en_all.zim,astronomy.stackexchange.com_en_all.zim"
+ENV BOOTSTRAP=1
 
 # Install kiwix-serve
 WORKDIR /
